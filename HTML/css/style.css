@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #111827;
+    padding: 30px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: #818cf8;
+    text-align: center;
+}
+
+nav {
+    background-color: #1e293b;
+    padding: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #334155;
+    color: white;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #6366f1;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #1e293b;
+    margin: 25px 0;
+    padding: 25px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+}
+
+#Childhood img {
+    display: block;
+    width: 350px;
+    max-width: 100%;
+    margin: 20px auto 0;
+    border-radius: 8px;
+}
+
+.about-text {
+    margin-bottom: 0;
+    color: #cbd5e1;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Hobbies ul,
+#learning ul,
+#goals ul {
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+#Hobbies li,
+#learning li,
+#goals li {
+    padding: 8px 14px;
+    background-color: #334155;
+    border-radius: 6px;
+}
+
+#contact-info {
+    text-align: center;
+}
+
+#contact-info ul {
+    padding: 0;
+    list-style: none;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    background-color: #0f172a;
+    color: white;
+    border: 1px solid #475569;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #818cf8;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 22px;
+    background-color: #6366f1;
+    color: white;
+    border: 1px solid #818cf8;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4f46e5;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    color: #a5b4fc;
+}
+
+td img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+#coolness {
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 18px;
+    background-color: #111827;
+    color: #94a3b8;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
